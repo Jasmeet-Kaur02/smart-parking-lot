@@ -76,7 +76,7 @@ Step 8. In step 6, update the status of the reservation slot record from 'pendin
 
 
 #### Note - 
-While assigning a slot to the vehicle, transaction can be used to handle concurrency during vehicle entries."
+While assigning a slot to the vehicle, transaction can be used to handle concurrency during vehicle entries.
 
 ### Logic to calculate total parking fees 
 1. When the vehicle exits from the parking slot, update the exit time and status to "exited" for that reserved slot record in the reservation table,
